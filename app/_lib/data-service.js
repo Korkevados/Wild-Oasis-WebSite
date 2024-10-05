@@ -155,6 +155,7 @@ export async function getCountries() {
 // CREATE
 
 export async function createGuest(newGuest) {
+  console.log("create guest");
   const { data, error } = await supabase.from("guests").insert([newGuest]);
 
   if (error) {
@@ -200,20 +201,7 @@ export async function updateGuest(id, updatedFields) {
   return data;
 }
 
-export async function updateBooking(id, updatedFields) {
-  const { data, error } = await supabase
-    .from("bookings")
-    .update(updatedFields)
-    .eq("id", id)
-    .select()
-    .single();
-
-  if (error) {
-    console.error(error);
-    throw new Error("Booking could not be updated");
-  }
-  return data;
-}
+// export async function updateBooking(id, updatedFields) {
 
 /////////////
 // DELETE

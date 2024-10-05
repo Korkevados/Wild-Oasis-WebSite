@@ -24,7 +24,7 @@ export default async function Page({ params }) {
       <div>
         <Cabin cabin={cabin} />
         <h2 className="text-5xl font-semibold text-center mb-10 text-accent-400">
-          Reserve today. Pay on arrival.
+          שריין היום, שלם במלון
         </h2>
         <Suspense fallback={<Spinner />}>
           <Reservation cabin={cabin} />

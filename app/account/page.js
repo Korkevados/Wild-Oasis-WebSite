@@ -1,9 +1,12 @@
 /** @format */
 
-function Page() {
+import { auth } from "../_lib/auth";
+
+export default async function Page() {
+  const session = await auth();
   return (
-    <h2 className="font-semibold text-2xl text-accent-400 mb-7">שלום דניאל</h2>
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+      שלום {session.user.name}
+    </h2>
   );
 }
-
-export default Page;
