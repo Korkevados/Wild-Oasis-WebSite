@@ -2,7 +2,6 @@
 
 import Header from "./_components/Header";
 import "@/app/_styles/globals.css";
-import "../node_modules/react-day-picker/style.css";
 import { Assistant } from "next/font/google";
 import { ReservationProvider } from "./_components/ResrvationContext";
 
