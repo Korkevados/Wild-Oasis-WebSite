@@ -13,7 +13,12 @@ Welcome to **Wild Oasis**, a luxurious retreat located in the heart of the Itali
 
 ![image](https://github.com/user-attachments/assets/a79bbd2a-ca50-4b51-89ad-fe7dd13ca644)
 
-  
+- **Google Login Integration**: Users can sign up and log in easily via their Google accounts for a streamlined experience.
+  ![image](https://github.com/user-attachments/assets/1cb3a848-de8c-45ec-94d9-8ec206c3cff3)
+
+- **Profile Updates**: After logging in, users can access and update their personal profile information at any time.
+  ![image](https://github.com/user-attachments/assets/3e6d2923-1cc4-4d5a-907d-17eef476889f)
+
 - **Scenic Location**: Nestled in lush forests with breathtaking mountain views, perfect for reconnecting with nature.
 - **Easy Reservations**: The website offers a seamless booking experience with the option to reserve cabins for up to 12 guests.
   
